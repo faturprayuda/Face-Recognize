@@ -21,4 +21,6 @@ Program ini dibuat untuk mendeteksi wajah-wajah yang sudah di training, oleh kar
 * pip install opencv-contrib-python
 * pip install pillow
 * install 1 per 1 hingga selesai
-8. clone git dan jalankan di IDE atau Text Editor.
+8. Jalankan file dataset.py terlebih dahulu, code pada dataset akan mengambil 30 gambar
+9. lalu jalankan code training pada training.py, code training akan mempelajari wajah yang tersimpan pada folder dataset dan menyimpannya di traning/training.yml
+10. jalankan recognize.py, hasil dari dataset dan training akan muncul pada pada program ini.
